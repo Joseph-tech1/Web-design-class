@@ -1,17 +1,53 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <ul style="line-height: 100%; list-style-type: square;">
-            <li>coffe</li>
-            <li>tea</li>
-            <ul>
-                <li>blact tea</li>
-                <li>green tea</li>
-                <ul>
-                    <li>china</li>
-                    <li>africa</li>
-                </ul>
-            </ul>
-            <li>milk</li>
-        </ul>
+    <hed>
+        <style>
+           .table{
+            border: 3px solid red;
+            width: 50%;
+
+          
+           }
+           .td{ border: 1px solid;
+            font: 900;
+
+           }
+           .tr{border: 3 blue;
+
+           }
+           .th{
+            font: 900;
+            border: 1px solid;
+            color: rgb(41, 5, 247);
+            text-align: left;
+           }
+           
+        </style>
+    </hed>
+    <body >
+        <table class="table">
+            <!-- <tr>: Table row -->
+                <caption>A table showing students</caption>
+                <tr>
+                    <th class="th">Name</th> <!-- <th>: Table header cell -->
+                    <th class="th">Age</th>
+                    <th class="th">Class</th>
+                    <th class="th">Address</th>
+                </tr>
+            <tbody>
+                <tr class="tr">
+                    <td classs="td">John</td> <!-- <td>: Table data cell -->
+                    <td classs="td">40</td>
+                    <td classs="td">Grade 3</td>
+                    <td classs="td">k'la</td>
+                </tr>
+                <tr class="tr">
+                    <td classs="td">Sarah</td>
+                    <td classs="td">30</td>
+                    <td classs="td">Grade 4</td>
+                    <td classs="td">Mukono</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
