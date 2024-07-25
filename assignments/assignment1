@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>VARIABLES</h1>
+        <p>These are names of the memory location that holds data.</p>
+        <p>Types</p>
+        <Ul>
+            <li>String</li>
+            <li>Object</li>
+            <li>Float</li>
+            <li>PhP Float</li>
+            <li>Static</li>
+            <li>Compound</li>
+            <li>Value types</li>
+            <li>Local</li>
+            <li>Global</li>
+            <li>Boolen</li>
+            <li>Array</li>
+            <li>Resource</li>
+            <li>Integer</li>
+            <li>Null</li>
+        </Ul>
+    </body>
+</html>
